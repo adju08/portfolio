@@ -1,0 +1,129 @@
+/* 이응노 미술관 */
+.visual.leeeungno {
+    background-image: url(../images/contents/leeungno_bg.jpg);
+}
+.visual.leeeungno .device a {
+    top: 133px;
+    right: 85px;
+    width: 851px;
+    height: 587px;
+    background-image: url(../images/contents/lee_v_after.png);
+}
+
+.visual.leeeungno .link a:hover,
+.detail .mobile .right .sub_link a:hover {
+    background-color: #441213;
+    color: #fff;
+    border-color: #441213;
+}
+.mood.leeeungno .txt_top .typography ul li span.gs_b,
+.mood.leeeungno .txt_top .typography ul li span.gs_m {
+    font-family: 'GmarketSans';
+}
+.mood.leeeungno .txt_top .typography ul li span.rr_b,
+.mood.leeeungno .txt_top .typography ul li span.rr_r {
+    font-family: 'Red Rose';
+}
+.mood.leeeungno .txt_top .typography ul li span.il_r {
+    font-family: "Italiana";
+    font-weight: 400;
+}
+.mood.leeeungno .txt_top .typography ul li span.gs_b,
+.mood.leeeungno .txt_top .typography ul li span.rr_b {
+    font-weight: 700;
+}
+.mood.leeeungno .txt_bottom ul li {
+    min-width: 132px;
+}
+.mood.leeeungno .txt_bottom ul li.long {
+    width: 23.81%;
+}
+.mood.leeeungno .txt_bottom ul li.point {
+    background-color: #441213;
+}
+.mood.leeeungno .txt_bottom ul li.dark {
+    background-color: #231512;
+}
+.mood.leeeungno .txt_bottom ul li.light {
+    background-color: #F0E9DF;
+    color: #1d1d1d;
+}
+.mood.leeeungno .txt_bottom ul li.c_tit {
+    background-color: #1D1D1D;
+}
+.mood.leeeungno .txt_bottom ul li.c_body {
+    background-color: #3D3D3D;
+}
+.detail.leeeungno .photo {
+    max-height: 2650px;
+    overflow: hidden;
+}
+.detail.leeeungno .mobile {
+    background-image: url(../images/contents/leeeungno_detail.jpg);
+}
+
+
+
+
+/* 서경대학교 */
+.visual.leeeungno {
+    background-image: url(../images/contents/leeungno_bg.jpg);
+}
+.visual.leeeungno::after {
+    top: 133px;
+    right: 85px;
+    width: 851px;
+    height: 587px;
+    background-image: url(../images/contents/lee_v_after.png);
+}
+.visual.leeeungno .link a:hover,
+.detail .mobile .right .sub_link a:hover {
+    background-color: #441213;
+    color: #fff;
+    border-color: #441213;
+}
+.mood.leeeungno .txt_top .typography ul li span.gs_b,
+.mood.leeeungno .txt_top .typography ul li span.gs_m {
+    font-family: 'GmarketSans';
+}
+.mood.leeeungno .txt_top .typography ul li span.rr_b,
+.mood.leeeungno .txt_top .typography ul li span.rr_r {
+    font-family: 'Red Rose';
+}
+.mood.leeeungno .txt_top .typography ul li span.il_r {
+    font-family: "Italiana";
+    font-weight: 400;
+}
+.mood.leeeungno .txt_top .typography ul li span.gs_b,
+.mood.leeeungno .txt_top .typography ul li span.rr_b {
+    font-weight: 700;
+}
+.mood.leeeungno .txt_bottom ul li {
+    min-width: 132px;
+}
+.mood.leeeungno .txt_bottom ul li.long {
+    width: 23.81%;
+}
+.mood.leeeungno .txt_bottom ul li.point {
+    background-color: #441213;
+}
+.mood.leeeungno .txt_bottom ul li.dark {
+    background-color: #231512;
+}
+.mood.leeeungno .txt_bottom ul li.light {
+    background-color: #F0E9DF;
+    color: #1d1d1d;
+}
+.mood.leeeungno .txt_bottom ul li.c_tit {
+    background-color: #1D1D1D;
+}
+.mood.leeeungno .txt_bottom ul li.c_body {
+    background-color: #3D3D3D;
+}
+.detail.leeeungno .photo {
+    max-height: 2650px;
+    overflow: hidden;
+}
+.detail.leeeungno .mobile {
+    background-image: url(../images/contents/leeeungno_detail.jpg);
+}
