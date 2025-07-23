@@ -13,7 +13,6 @@
     position: relative; /* header 정렬 기준 */
     width: 100%;
     min-width: 1300px;     /* 최소 너비 지정 */
-    overflow-x: auto;
 }
 
 

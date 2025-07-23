@@ -69,13 +69,14 @@
 .visual.leeeungno {
     background-image: url(../images/contents/leeungno_bg.jpg);
 }
-.visual.leeeungno::after {
+.visual.leeeungno .device a {
     top: 133px;
     right: 85px;
     width: 851px;
     height: 587px;
     background-image: url(../images/contents/lee_v_after.png);
 }
+
 .visual.leeeungno .link a:hover,
 .detail .mobile .right .sub_link a:hover {
     background-color: #441213;
