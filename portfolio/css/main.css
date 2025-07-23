@@ -27,20 +27,23 @@
 .visual::before {
     content: "";
     position: absolute;
-    top: 52px;
+    top: 50%;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%) translateY(-50%);
     z-index: 1;
     width: 581px;
     height: 775px;
     background: url(../images/main/visual_sub.png) no-repeat center center / cover;
 }
 .visual .wrapper {
-    position: relative; /* .visual .txt */
+    position: relative; /* txt, main_tit */
     height: 100%;
 }
+
 .visual .main_tit {
-    position: relative; /* strong */
+    position: absolute;
+    top: 30%;
+    left: 0;
 }
 .visual .main_tit h1 {
     position: relative;
@@ -48,7 +51,6 @@
     font-size: 150px;
     font-weight: 800;
     line-height: 1;
-    padding-top: 184px;
 }
 .visual .main_tit h1 span {
     font-size: 80px;
@@ -73,10 +75,9 @@
     background-position: center center;
     background-size: cover;
 }
-
 .visual .txt {
     position: absolute;
-    top: 134px;
+    top: 17%;
     right: 0;
 }
 .visual .txt strong {
@@ -117,6 +118,9 @@
 }
 .accordion_wrap .accordion .conts {
     padding-top: 190px;
+}
+.accordion.visual .conts {
+    padding-top: 0;
 }
 .accordion_wrap .accordion .conts:last-child {
     height: 100vh !important;
