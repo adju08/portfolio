@@ -154,7 +154,9 @@
     left: 134px;
     width: 273px;
     height: 548px;
-    background: url(../images/contents/lee_iphone.png) no-repeat center center / cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     animation-name: phone_down;
     animation-duration: 3s;
     animation-iteration-count: infinite;

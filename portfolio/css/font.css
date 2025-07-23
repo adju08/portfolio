@@ -45,7 +45,7 @@
 }
 
 
-/* 이응노 */
+/* 이응노 미술관 */
 @font-face {
 	font-family: "Italiana";
 	font-weight: 400;
@@ -75,4 +75,21 @@
     src: url(../../leeeungno/font/GmarketSansBold.woff) format('woff');
     font-weight: 700;
     font-style: normal;
+}
+
+
+
+
+/* 서경대학교 */
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 700;
+	font-display: swap;
+	src: local('Pretendard ExtraBold'), url(../../sku/font/Pretendard-ExtraBold.woff2) format('woff2'), url(../font/Pretendard-ExtraBold.woff) format('woff');
+}
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 500;
+	font-display: swap;
+	src: local('Pretendard Medium'), url(../../sku/font/Pretendard-Medium.woff2) format('woff2'), url(../font/Pretendard-Medium.woff) format('woff');
 }
