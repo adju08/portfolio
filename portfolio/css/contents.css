@@ -55,8 +55,7 @@
     background-color: #3D3D3D;
 }
 .detail.leeeungno .photo {
-    max-height: 2650px;
-    overflow: hidden;
+    max-height: 2629px;
 }
 .detail.leeeungno .mobile {
     background-image: url(../images/contents/leeeungno_detail.jpg);
@@ -124,8 +123,7 @@
     background-color: #3D3D3D;
 }
 .detail.sku .photo {
-    max-height: 2650px;
-    overflow: hidden;
+    max-height: 2599px;
 }
 .detail.sku .mobile {
     background-image: url(../images/contents/sku_detail.jpg);
@@ -150,37 +148,34 @@
 }
 .visual.hyundaicorp .link a:hover,
 .detail.hyundaicorp .mobile .right .sub_link a:hover {
-    background-color: #02652F;
+    background-color: #00264B;
     color: #fff;
-    border-color: #02652F;
+    border-color: #00264B;
 }
-.mood.hyundaicorp .txt_top .typography ul li span.pre_b,
-.mood.hyundaicorp .txt_top .typography ul li span.pre_m {
-    font-family: 'Pretendard';
+.mood.hyundaicorp .txt_top .typography ul li span.noto_b,
+.mood.hyundaicorp .txt_top .typography ul li span.noto_m {
+    font-family: "Noto Sans KR";
+    
 }
-.mood.hyundaicorp .txt_top .typography ul li span.mon_italic {
-    font-family: "Montserrat";
-    font-style: italic;
+.mood.hyundaicorp .txt_top .typography ul li span.ub_b,
+.mood.hyundaicorp .txt_top .typography ul li span.ub_m {
+    font-family: "Ubuntu";
 }
-.mood.hyundaicorp .txt_top .typography ul li span.mon_b,
-.mood.hyundaicorp .txt_top .typography ul li span.pre_b,
-.mood.hyundaicorp .txt_top .typography ul li span.mon_italic {
+.mood.hyundaicorp .txt_top .typography ul li span.noto_b,
+.mood.hyundaicorp .txt_top .typography ul li span.ub_b {
     font-weight: 700;
 }
 .mood.hyundaicorp .txt_bottom ul li {
     min-width: 132px;
 }
 .mood.hyundaicorp .txt_bottom ul li.long {
-    width: 23.81%;
+    width: 36.67%;
 }
 .mood.hyundaicorp .txt_bottom ul li.main {
-    background-color: #004F4A;
+    background-color: #00264B;
 }
 .mood.hyundaicorp .txt_bottom ul li.point {
-    background-color: #02652F;
-}
-.mood.hyundaicorp .txt_bottom ul li.sub {
-    background-color: #6EB92C;
+    background-color: #00B4DD;
 }
 .mood.hyundaicorp .txt_bottom ul li.c_tit {
     background-color: #1D1D1D;
@@ -190,7 +185,6 @@
 }
 .detail.hyundaicorp .photo {
     max-height: 2650px;
-    overflow: hidden;
 }
 .detail.hyundaicorp .mobile {
     background-image: url(../images/contents/hyundaicorp_detail.jpg);

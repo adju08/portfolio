@@ -20,6 +20,14 @@ html, body {
 }
 
 
+@media screen and (max-width:1300px){
+    .wrapper {
+        width: auto;
+        margin: 0 20px;
+    }
+}
+
+
 
 /* 글자를 숨겨야하는 경우 blind 클래스를 적용
     skip, blind 이렇게 두 이름으로 많이 부름 */
