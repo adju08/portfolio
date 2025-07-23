@@ -21,7 +21,7 @@
 .visual {
     position: relative;
     background: url(../images/main/visual_bg.jpg) no-repeat center center / cover;
-    height: 900px;
+    height: 100vh;
     color: #fff;
 }
 .visual::before {
@@ -39,15 +39,10 @@
     position: relative; /* .visual .txt */
     height: 100%;
 }
-.visual .h_txt,
-.final .h_txt {
-    color: #fff;
-    font-weight: 600;
-    display: flex;
-    justify-content: space-between;
-    padding: 30px 0;
+.visual .main_tit {
+    position: relative; /* strong */
 }
-.visual h1 {
+.visual .main_tit h1 {
     position: relative;
     z-index: 1;
     font-size: 150px;
@@ -55,9 +50,30 @@
     line-height: 1;
     padding-top: 184px;
 }
-.visual h1 span {
+.visual .main_tit h1 span {
     font-size: 80px;
+    font-style: italic;
 }
+.visual .main_tit strong {
+    position: absolute;
+    bottom: 189px;
+    left: 267px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.visual .main_tit strong::before {
+    content: "";
+    position: absolute;
+    top: -24px;
+    left: -43px;
+    width: 270px;
+    height: 77px;
+    background-image: url("data:image/svg+xml,%3Csvg width='270' height='77' viewBox='0 0 270 77' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M135 0.5C172.246 0.5 205.948 4.80569 230.322 11.7568C242.513 15.2334 252.342 19.3642 259.111 23.9287C265.899 28.5052 269.5 33.4384 269.5 38.5C269.5 43.5616 265.899 48.4948 259.111 53.0713C252.342 57.6358 242.513 61.7666 230.322 65.2432C205.948 72.1943 172.246 76.5 135 76.5C97.7537 76.5 64.0519 72.1943 39.6777 65.2432C27.4873 61.7666 17.6585 57.6358 10.8887 53.0713C4.10125 48.4948 0.5 43.5616 0.5 38.5C0.5 33.4384 4.10125 28.5052 10.8887 23.9287C17.6585 19.3642 27.4873 15.2334 39.6777 11.7568C64.0519 4.80569 97.7537 0.5 135 0.5Z' stroke='white'/%3E%3Crect x='26.8284' y='35' width='6' height='6' transform='rotate(45 26.8284 35)' fill='white'/%3E%3Crect x='243.243' y='35' width='6' height='6' transform='rotate(45 243.243 35)' fill='white'/%3E%3C/svg%3E%0A");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
 .visual .txt {
     position: absolute;
     top: 134px;
@@ -103,7 +119,7 @@
     padding-top: 190px;
 }
 .accordion_wrap .accordion .conts:last-child {
-    height: 900px !important;
+    height: 100vh !important;
 }
 .accordion_wrap .accordion .conts .inner {
     display: flex;
@@ -301,10 +317,17 @@
 }
 .final {
     background: url(../images/main/final_bg.jpg) no-repeat center center / cover;
-    height: 900px;
+    height: 100vh;
     color: #fff;
     position: relative;
     z-index: 1;
+}
+.final .h_txt {
+    color: #fff;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
 }
 .final .txt {
     text-align: center;
