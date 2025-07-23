@@ -2,11 +2,19 @@
 $(document).ready(function(){
     //console.log('들어가니')
 
-    AOS.init({
-        offset: 200,
-        duration: 500,
-        easing: 'ease',
-    });
+    window.onload = function () {
+        const vh = window.innerHeight;
+        AOS.init({
+            offset: vh < 800 ? 60 : 200,
+            duration: 500,
+            easing: 'ease',
+            once: false
+        });
+
+        setTimeout(() => {
+            AOS.refresh();
+        }, 300);
+    };
 
 
 /*************************** visual swiper 연결 : 시작 ***************************/
