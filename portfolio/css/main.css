@@ -116,11 +116,8 @@
     border: 1px solid #fff;
     border-radius: 40px;
 }
-.accordion_wrap .accordion .conts {
+.accordion_wrap .accordion:not(.visual) .conts {
     padding-top: 190px;
-}
-.accordion.visual .conts {
-    padding-top: 0;
 }
 .accordion_wrap .accordion .conts:last-child {
     height: 100vh !important;
