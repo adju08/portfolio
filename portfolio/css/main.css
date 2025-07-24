@@ -134,6 +134,7 @@
     display: flex;
     align-items: center;
     gap: 101px;
+    margin-right: 20px;
 }
 .accordion_wrap .accordion .conts .inner .profile .photo {
     height: 487px;
