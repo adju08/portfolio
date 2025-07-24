@@ -266,6 +266,9 @@
 
 
 
+.accordion_wrap .accordion.p_link {
+    background-color: #F6F4F9;
+}
 .accordion_wrap .accordion.p_link .conts .list ul li {
     position: relative; /* span */
 }
