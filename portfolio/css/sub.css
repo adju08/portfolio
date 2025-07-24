@@ -134,11 +134,13 @@
 }
 .detail .photo {
     overflow: hidden;
+    text-align: center;
 }
 .detail .photo img {
     width: 100%;
+    max-width: 1920px;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 .detail .mobile {
     background-repeat: no-repeat;

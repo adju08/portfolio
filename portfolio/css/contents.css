@@ -54,9 +54,6 @@
 .mood.leeeungno .txt_bottom ul li.c_body {
     background-color: #3D3D3D;
 }
-.detail.leeeungno .photo {
-    max-height: 2629px;
-}
 .detail.leeeungno .mobile {
     background-image: url(../images/contents/leeeungno_detail.jpg);
 }
@@ -122,9 +119,6 @@
 .mood.sku .txt_bottom ul li.c_body {
     background-color: #3D3D3D;
 }
-.detail.sku .photo {
-    max-height: 2599px;
-}
 .detail.sku .mobile {
     background-image: url(../images/contents/sku_detail.jpg);
 }
@@ -182,9 +176,6 @@
 }
 .mood.hyundaicorp .txt_bottom ul li.c_body {
     background-color: #3D3D3D;
-}
-.detail.hyundaicorp .photo {
-    max-height: 2142px;
 }
 .detail.hyundaicorp .mobile {
     background-image: url(../images/contents/hyundaicorp_detail.jpg);
