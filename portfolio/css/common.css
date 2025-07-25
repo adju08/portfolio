@@ -1,22 +1,20 @@
-/* 모든 페이지에 공통으로 들어가는 기본 스타일 */
+
 html, body {
     font-family: "Montserrat", "Paperlogy", serif;
-    /* 앞에 쓴 서체를 적용하고 지원이 안되면 두번째 서체를 적용 */
     font-size: 17px;
     font-weight: 500;
     color: #555;
     line-height: 1.5;
-    word-break: keep-all; /* 스페이스기준 단어별로 떨어지게 함 */
-    word-wrap: break-word; /* 단어가 너무 긴 경우 강제로 줄바꿈을 주는 방법 */
+    word-break: keep-all;
+    word-wrap: break-word;
 }
 .wrapper {
     width: 1750px;
-    margin: 0 auto; /* 가운데 정렬 */
+    margin: 0 auto;
 }
 #wrap {
-    position: relative; /* header 정렬 기준 */
+    position: relative; /* header */
     width: 100%;
-    /*min-width: 1650px;     /* 최소 너비 지정 */
     overflow-x: hidden;
 }
 
@@ -30,8 +28,6 @@ html, body {
 
 
 
-/* 글자를 숨겨야하는 경우 blind 클래스를 적용
-    skip, blind 이렇게 두 이름으로 많이 부름 */
 .blind {
     position: absolute;
     clip: rect(0 0 0 0);
@@ -39,18 +35,18 @@ html, body {
     height: 1px;
     margin: -1px;
     overflow: hidden;
-    color: transparent; /* 글자가 투명 */
+    color: transparent;
 }
 
 
 
 /* 마우스 포인터 변경 */
 .cursor { 
-	position: absolute;  /* 반드시 absolute여야 하고 위치는 jquery에서 적용 시킴 */
+	position: absolute;
 	z-index: 1000;
-	transform: translate(-50%, -50%); /* 커서 위치 조정 */
-	pointer-events: none; /* 생성된 cursor에 마우스 오버 이벤트를 주지 않기 - 이걸 주지 않으면 cursor에 마우스가 오버된 것으로 인식되어 하단 요소가 클릭되지 않음 */
-	display:none; /* 평소에는 보이지 않게 하기 위해서 - 만약 원래도 따라다니는 마우스 포인터를 디자인하려면 스타일을 주면 됨. */
+	transform: translate(-50%, -50%);
+	pointer-events: none;
+	display:none;
 }
 .cursor.on {
 	display:block;
@@ -63,8 +59,8 @@ html, body {
     color: #fff;
 }
 .popup {
-	cursor: none !important; /* 만약 마우스 오버 시 생성한 cursor만 나타나고 실제 마우스 포인터는 안보이게 하려면 오버하는 요소에서 마우스 포인트를 안보이게 해야 함 */
+	cursor: none !important;
 }
 a:not(header a):hover {
-    cursor: none; /* 기본 커서 안 보이게 */
+    cursor: none;
 }
